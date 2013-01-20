@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "name": "html-cov2file",
+  "description": "Mocha html-cov reporter replacement which writes to a file",
+  "keywords": [
+    "mocha",
+    "html-cov",
+    "coverage"
+  ],
+  "author": "Tom Rudick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmrudick/html-cov2file"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "mocha": "*",
+    "jade": "*"
+  }
+}
