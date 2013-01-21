@@ -4,14 +4,14 @@ var mocha = require('mocha'),
     jade = require('jade');
 
 // expore the reporter	
-exports = module.exports = HtmlCov2File;
+exports = module.exports = HtmlFileCov;
 	
 // get built-in mocha reporters references
 var Base = mocha.reporters.Base,
     JSONCov = mocha.reporters.JSONCov,
     color = Base.color;
 	
-function HtmlCov2File(runner) {
+function HtmlFileCov(runner) {
 	var file = __dirname + '/templates/coverage.jade',
 		str = fs.readFileSync(file, 'utf8'),
 		fn = jade.compile(str, { filename: file }),
@@ -39,7 +39,7 @@ function HtmlCov2File(runner) {
 			coverageClass: coverageClass
 		}));
 		
-		// Force /n after mocha exits
+		// Force \n after mocha exits
 		console.log('');
 	});
 	
