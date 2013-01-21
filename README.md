@@ -10,7 +10,7 @@ Also outputs dot-style test pass/failures to stdout. Useful to see the progress 
 Installation
 -------------
 ```
-npm install
+npm install html-file-cov
 ```
 
 Usage
