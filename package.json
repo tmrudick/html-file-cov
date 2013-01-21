@@ -17,7 +17,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "mocha": "*",
-    "jade": "*"
+    "mocha": ">=1.6.0",
+    "jade": "0.26.3"
   }
 }
