@@ -15,7 +15,7 @@ npm install html-file-cov
 
 Usage
 -------------
-html-file-cov is to be used with [mocha](https://github.com/visionmedia/mocha) and code coverage tools such as [node-jscoverage](https://github.com/visionmedia/node-jscoverage) or [blanket](https://github.com/Migrii/blanket). 
+html-file-cov is to be used with [mocha](https://github.com/visionmedia/mocha) and code coverage tools such as [node-jscoverage](https://github.com/visionmedia/node-jscoverage) or [blanket](http://blanketjs.org/). 
 
 ```
 mocha testrunner.js -R html-file-cov
