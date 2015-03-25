@@ -1,7 +1,8 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0",
   "name": "html-file-cov",
   "description": "Mocha html-cov reporter replacement which writes to a file",
+  "license": "MIT",
   "keywords": [
     "mocha",
     "html-cov",
